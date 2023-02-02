@@ -1,2 +1,9 @@
-# Gobang game
-This is my first ever programming project. It was my final assignment of C course in my first semester at university. It is a 13x13 grid Gobang game, with a simple AI simulation for the computer player.
+## Gobang game
+This is my first-ever programming project. It was my final assignment for Introduction to Computer Science course in my first semester at university.
+<p>It is a 13x13 grid Gobang game, with a simple AI simulation for the computer player. The game is written in C language.</p>
+<p>The project includes 3 main C source code files (Functions.c, ComputerPlayer.c, and Game.c) and one library file (Library.h).</p>
+<p>First, the <b>"Library.h"</b> file is where I list the structure(s) and functions needed for the game.</p>
+<p>Second, the <b>"Functions.c"</b> file is where I define functions listed in "Library.h" file. The <i>"InitialBoard"</i> function is to print out the initial game board. The <i>"DisplayBoard"</i> function is to print out the game board after every time a player makes a move. The <i>"Humanplay"</i> function is to let the human player make a move. The <i>"Firstplayer"</i> and <i>"Secondplayer"</i> function are for two sides to make their move when two players play. The <i>"IsWin"</i> function is to check whether one side has won the game. The <i>"IsFull"</i> function is to check whether the game board is fully filled, if it is full then the game is tied. The <i>"PrintWinner"</i> function is to announce the winner when they won the game. The <i>"save"</i> function is to record every move that players made. The <i>"Replay"</i> function is to read the record that was saved and to print in the screen.</p>
+<p>The <b>"ComputerPlayer"</b> file is made exclusively to intelligently programmed the computer to respond, attack and counter the opponent's move to make the game harder for the human player.</p>
+<p>The <b>"Game.c"</b> file is where the game is implemented. It includes the main function and different modules to execute the game based on players' preferences. There are two main modules, one is human playing against human which is "twoplayer" function, and the other one is human playing against the computer, it is divided into two sub-modules, where the human player can choose the attacking position or the defending position.</p>
+
